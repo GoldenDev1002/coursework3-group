@@ -1,0 +1,21 @@
+{
+    "name" : "Lesson Store PWA",
+    "short_name" : "Lesson Store",
+    "description" : "My lesson store",
+    "icons" : [
+        {
+            "src" : "",
+            "sizes" : "",
+            "type" : "images/png"
+        }
+         ,
+        {
+            "src" : "",
+            "sizes" : "",
+            "type" : "images/png"
+        }
+    ],
+    "start_url" : "index.html",
+    "display" : "fullScreen",
+    "background_color" : "#2bca87"
+}
