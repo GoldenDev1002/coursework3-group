@@ -4,14 +4,14 @@
     "description" : "My lesson store",
     "icons" : [
         {
-            "src" : "",
-            "sizes" : "",
+            "src" : "subjectPic/english.jpg",
+            "sizes" : "32 * 32",
             "type" : "images/png"
         }
          ,
         {
-            "src" : "",
-            "sizes" : "",
+            "src" : "subjectPic/english.jpg",
+            "sizes" : "512 * 512",
             "type" : "images/png"
         }
     ],
