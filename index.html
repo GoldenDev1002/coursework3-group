@@ -10,7 +10,7 @@
         <link rel ="icon" type="image/x-icon" href="subjectPic/economics.png"> <!--icon-->
         <title>Book Lesson</title>
     </head>
-    <div id="app">
+    <div id="newApp">
         <ul class="apps" v-for="lesson in lessons">
             <li> Topic : {{ lesson.topic }}</li>
             <li> Location : {{ lesson.location }}</li>
@@ -19,21 +19,6 @@
            </div>
         
           <!----->
-                    <script>
-                        let app = new Vue({
-                            el: "#app",
-                            data: {
-                                lessons: [],
-                                
-                            },
-                            created: function(){
-                               //to check if the browser (navigator) supports service worker
-                               if("serviceworker" in navigator){
-                                navigator.serviceWorker.register("service-worker.js") //the service worker should register the service-worker.js page which stores the cache storage
-                               }
-                            }
-                
-                        })
-                    </script>
-                </body>
+                    <script src="app.js"> </script>
+                </body> 
                 </html>
