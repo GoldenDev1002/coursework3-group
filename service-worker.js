@@ -1,14 +1,19 @@
 //stores the cache storage
 let cacheName = "lessonApp-v3" //name of the cache storage
 
+
 //the files that will become part of the cache storage and automatically loaded with the cache
 
 let cacheFiles = [
     "index.html", 
-    "subjectPic/engligh.jpg",
-    "subjectPic/biology.jpg",
-    "subjectPic/chemistry.jpg",
-    "subjectPic/literature.jpg"
+    "subjectPic/english.png",
+    "subjectPic/biology.png",
+    "subjectPic/chemistry.png",
+    "subjectPic/literature.png",
+    "subjectPic/english1.png",
+    "subjectPic/biology1.png",
+    "subjectPic/chemistry1.png",
+    "subjectPic/literature1.png"
 ]
 
 

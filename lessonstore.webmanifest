@@ -2,16 +2,16 @@
     "name" : "Lesson Store PWA",
     "short_name" : "Lesson Store",
     "description" : "My lesson store",
-    "icons" : [
+    "icons" : [ 
         {
-            "src" : "subjectPic/english.jpg",
-            "sizes" : "32 * 32",
+            "src" : "subjectPic/english1.png",
+            "sizes" : "192 x 192",
             "type" : "images/png"
         }
          ,
         {
-            "src" : "subjectPic/english.jpg",
-            "sizes" : "512 * 512",
+            "src" : "subjectPic/english.png",
+            "sizes" : "512 x 512",
             "type" : "images/png"
         }
     ],
